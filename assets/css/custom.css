@@ -1,0 +1,4 @@
+/* Korean language word-break rule */
+:lang(ko) {
+    word-break: keep-all;
+}
