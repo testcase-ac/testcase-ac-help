@@ -51,3 +51,14 @@ params:
   editURL:
     enable: true
     base: "https://github.com/testcase-ac/testcase-ac-docs/edit/main/content"
+
+params:
+  comments:
+    enable: true
+    type: giscus
+
+    giscus:
+      repo: testcase-ac
+      repoId: testcase-ac-docs
+      category: Announcements
+      categoryId: DIC_kwDOPLOIjs4CtFWj
