@@ -1,5 +1,5 @@
 # Hugo configuration file
-title: docs.testcase.ac
+title: help.testcase.ac
 languageCode: ko
 defaultContentLanguage: ko
 
@@ -20,8 +20,8 @@ markup:
 
 menu:
   main:
-    - name: Help
-      pageRef: /help
+    - name: Docs
+      pageRef: /docs
       weight: 1
     - name: Blog
       pageRef: /blog

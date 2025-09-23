@@ -1,3 +1,7 @@
-# testcase.ac docs
+# help.testcase.ac
 
-Docs repository for testcase.ac
+Docs and blog for testcase.ac
+
+# Development
+
+Start
