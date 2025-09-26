@@ -58,7 +58,7 @@ params:
     type: giscus
 
     giscus:
-      repo: testcase-ac/testcase-ac-docs
+      repo: testcase-ac/testcase-ac-help
       repoId: R_kgDOPLOIjg
       category: Announcements
       categoryId: DIC_kwDOPLOIjs4CtFWj
