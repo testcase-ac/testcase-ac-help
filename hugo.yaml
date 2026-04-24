@@ -1,7 +1,67 @@
 # Hugo configuration file
 title: help.testcase.ac
-languageCode: ko
 defaultContentLanguage: ko
+defaultContentLanguageInSubdir: false
+
+languages:
+  ko:
+    languageName: 한국어
+    languageCode: ko-KR
+    weight: 1
+    menus:
+      main:
+        - name: 도움말
+          pageRef: /docs
+          weight: 1
+        - name: 블로그
+          pageRef: /blog
+          weight: 2
+        - name: testcase.ac ↗
+          url: https://testcase.ac
+          weight: 3
+        - name: 검색
+          weight: 4
+          params:
+            type: search
+        - name: 언어
+          weight: 5
+          params:
+            type: language-switch
+            label: true
+        - name: GitHub
+          weight: 6
+          url: "https://github.com/testcase-ac/testcase-ac-docs"
+          params:
+            icon: github
+  en:
+    languageName: English
+    languageCode: en-US
+    weight: 2
+    menus:
+      main:
+        - name: Docs
+          pageRef: /docs
+          weight: 1
+        - name: Blog
+          pageRef: /blog
+          weight: 2
+        - name: testcase.ac ↗
+          url: https://testcase.ac
+          weight: 3
+        - name: Search
+          weight: 4
+          params:
+            type: search
+        - name: Language
+          weight: 5
+          params:
+            type: language-switch
+            label: true
+        - name: GitHub
+          weight: 6
+          url: "https://github.com/testcase-ac/testcase-ac-docs"
+          params:
+            icon: github
 
 # import hextra as module
 module:
@@ -17,27 +77,6 @@ markup:
   # enable hextra syntax highlight
   highlight:
     noClasses: false
-
-menu:
-  main:
-    - name: Docs
-      pageRef: /docs
-      weight: 1
-    - name: Blog
-      pageRef: /blog
-      weight: 2
-    - name: testcase.ac ↗
-      url: https://testcase.ac
-      weight: 3
-    - name: Search
-      weight: 4
-      params:
-        type: search
-    - name: GitHub
-      weight: 5
-      url: "https://github.com/testcase-ac/testcase-ac-docs"
-      params:
-        icon: github
 
 params:
   author:
