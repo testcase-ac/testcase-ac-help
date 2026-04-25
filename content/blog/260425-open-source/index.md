@@ -3,7 +3,7 @@ title: "testcase.ac를 오픈소스로 공개합니다"
 date: 2026-04-25T00:00:00+09:00
 ---
 
-한 줄 요약: testcase.ac는 데이터와 웹 서비스 코드 모두 오픈소스로 공개됩니다. [next.testcase.ac](https://next.testcase.ac)에서 새로운 testcase.ac를 미리 확인해 보세요.
+한 줄 요약: testcase.ac는 데이터와 웹 서비스 코드 모두 오픈소스로 공개됩니다. 코드는 [testcase-ac/testcase-ac](https://github.com/testcase-ac/testcase-ac)에서, 새로운 서비스는 [next.testcase.ac](https://next.testcase.ac)에서 미리 확인해 보세요.
 
 
 ## 들어가며

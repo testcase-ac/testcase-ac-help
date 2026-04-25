@@ -3,7 +3,7 @@ title: "Releasing testcase.ac as open source"
 date: 2026-04-25T00:00:00+09:00
 ---
 
-TL;DR: Both the data and the web service code of testcase.ac are going open source. Visit [next.testcase.ac](https://next.testcase.ac) for a preview of the new testcase.ac.
+TL;DR: Both the data and the web service code of testcase.ac are going open source. The code is at [testcase-ac/testcase-ac](https://github.com/testcase-ac/testcase-ac), and you can preview the new service at [next.testcase.ac](https://next.testcase.ac).
 
 
 ## Introduction
