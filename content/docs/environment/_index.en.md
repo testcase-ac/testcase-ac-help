@@ -1,10 +1,14 @@
 ---
-title: Judge Environment (Draft)
+title: Runtime Environment
 weight: 3
 ---
 
-Judging runs in the following environment.
+testcase.ac counterexample search runs on AWS Lambda.
 
-- Server: AWS Lambda
-- Architecture: ARM64
-- Memory: 1796MB
+- Server: AWS Lambda container
+- Container definition: [`deploy/stresser.Dockerfile`](https://github.com/testcase-ac/testcase-ac/blob/main/deploy/stresser.Dockerfile)
+- Architecture: `x86_64`
+- Counterexample search time limit: 90 seconds
+
+You can check the detailed deployment settings in
+[`deploy/terraform/stresser`](https://github.com/testcase-ac/testcase-ac/tree/main/deploy/terraform/stresser).

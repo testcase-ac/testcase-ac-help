@@ -2,9 +2,11 @@
 title: Docs
 ---
 
-Learn how to find counterexamples for wrong answers on Baekjoon Online Judge and how to contribute back to the community.
+Learn how to find counterexamples for incorrect algorithm solutions on
+testcase.ac, and how to contribute problem data.
 
 {{< cards >}}
-  {{< card link="stress" title="Finding Counterexamples" icon="search" subtitle="How to use testcase.ac to catch wrong answers" >}}
-  {{< card link="contribute" title="Contributing" icon="heart" subtitle="How to contribute accepted solutions and generators" >}}
+  {{< card link="stress" title="Finding Counterexamples" icon="search" subtitle="Find counterexamples with saved problems or custom code" >}}
+  {{< card link="contribute" title="Contributing" icon="heart" subtitle="Contribute problem data through GitHub PRs" >}}
+  {{< card link="environment" title="Runtime Environment" icon="server" subtitle="Stresser and CI verification environment" >}}
 {{< /cards >}}

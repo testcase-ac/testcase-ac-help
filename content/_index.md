@@ -3,7 +3,7 @@ title: testcase.ac
 toc: false
 ---
 
-백준 온라인 저지에서 틀린 문제의 반례를 찾아보세요. 반례를 찾을 수 있도록 정답 코드와 제너레이터 코드를 기여해보세요.
+testcase.ac에서 틀린 알고리즘 풀이의 반례를 찾고, 문제 데이터에 기여하세요.
 
 {{< cards >}}
 {{< card link="docs" title="도움말" icon="book-open" subtitle="반례 찾기와 기여 방법 알아보기" >}}
